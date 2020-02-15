@@ -7,6 +7,7 @@
 5. EL IN.
 6. EL BETWEEN.
 7. El AND, OR Y NOT.
+8. EL LIKE
 ## 1. EL SELECT.
 El SELECT es una sentencia SQL que se utiliza para seleccionar datos de una base de datos.
 ```sql
@@ -90,6 +91,18 @@ SELECT column1, column2, ...
 FROM table_name
 WHERE NOT condition;
 ```
+## 8. EL LIKE.
+
+El LIKE es un operador que utiliza en una cláusula WHERE para buscar un patrón específico en una columna.
+
+
+```sql
+SELECT column1, column2, ...
+FROM table_name
+WHERE columnN LIKE pattern;
+```
+
+
 
 
 
