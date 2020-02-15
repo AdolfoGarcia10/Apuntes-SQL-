@@ -8,4 +8,4 @@ El select es una sentencia SQL que se utiliza para seleccionar datos de una base
 
 ```sql
 SELECT FILE1, FILE2, ...
-FROM table_name; ```
+FROM table_name;```
