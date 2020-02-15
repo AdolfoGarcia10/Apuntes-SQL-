@@ -7,7 +7,8 @@
 5. EL IN.
 6. EL BETWEEN.
 7. El AND, OR Y NOT.
-8. EL LIKE
+8. EL LIKE.
+9. EL REPLACE.
 ## 1. EL SELECT.
 El SELECT es una sentencia SQL que se utiliza para seleccionar datos de una base de datos.
 ```sql
@@ -101,6 +102,18 @@ SELECT column1, column2, ...
 FROM table_name
 WHERE columnN LIKE pattern;
 ```
+
+## 9. EL REPLACE.
+
+El REPLACE es una función SQL sirve para intercambiar elementos de la consulta.
+
+```sql
+SELECT city
+ REPLACE (city, 'NY', 'New York')
+FROM world
+WHERE name LIKE '%_NY';
+```
+
 
 
 
