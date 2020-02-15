@@ -4,6 +4,7 @@
 2. EL FROM.
 3. EL WHERE.
 4. EL ORDER BY
+5. EL IN
 ## 1. EL SELECT
 El select es una sentencia SQL que se utiliza para seleccionar datos de una base de datos.
 ```sql
@@ -48,5 +49,16 @@ ser:
   WHERE population > x
   ORDER BY population dsc;
 ```
+##  5. EL IN
+El  in es una sentencia SQL que permite especificar varios valores en una sentencia WHERE.
+
+```sql
+SELECT column_name(s)
+FROM table_name
+WHERE column_name IN (value1, value2, ...);
+```
+
+
+
 
 
