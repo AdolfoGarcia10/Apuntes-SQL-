@@ -3,6 +3,7 @@
 1. EL SELECT.
 2. EL FROM.
 3. EL WHERE.
+4. EL ORDER BY
 ## 1. EL SELECT
 El select es una sentencia SQL que se utiliza para seleccionar datos de una base de datos.
 ```sql
@@ -26,4 +27,26 @@ SELECT column1, column2, ...
 FROM table_name
 WHERE condition;
 ```
+##  4. EL ORDER BY
+El  order by  es una sentencia SQL que se utiliza para ordenar los resultados. Puede
+ser:
+
+**ASC**: orden ascendente anque el ORDER BY ya es ASC por defecto.
+
+```sql
+  SELECT name, population
+  FROM world
+  WHERE population > x
+  ORDER BY population asc;
+```
+
+**DCS**: orden descendente.
+
+```sql
+  SELECT name, population
+  FROM world
+  WHERE population > x
+  ORDER BY population dsc;
+```
+
 
