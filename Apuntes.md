@@ -3,9 +3,10 @@
 1. EL SELECT.
 2. EL FROM.
 3. EL WHERE.
-4. EL ORDER BY
-5. EL IN
-6. EL BETWEEN
+4. EL ORDER BY.
+5. EL IN.
+6. EL BETWEEN.
+7. El AND, OR Y NOT.
 ## 1. EL SELECT.
 El SELECT es una sentencia SQL que se utiliza para seleccionar datos de una base de datos.
 ```sql
@@ -65,6 +66,29 @@ El  BETWEEN es una sentencia SQL que compara los valores en un rango determinado
 SELECT column_name(s)
 FROM table_name
 WHERE column_name BETWEEN value1 AND value2;
+```
+## 7. El AND ,OR Y NOT.
+
+**AND**: es un operador que sirve para cumplir 2 o mas condiciones cuando ambas sean ciertas.
+
+```sql
+SELECT column1, column2, ...
+FROM table_name
+WHERE condition1 AND condition2 AND condition3 ...;
+```
+**OR**: es un operador que sirve para cumplir 2 o mas condiciones cuando al menos una de ellas es correcta.
+
+```sql
+SELECT column1, column2, ...
+FROM table_name
+WHERE condition1 OR condition2 OR condition3 ...;
+```
+**NOT**: es un operador que sirve para cumplir 1 condición cuando esta no es correcta.
+
+```sql
+SELECT column1, column2, ...
+FROM table_name
+WHERE NOT condition;
 ```
 
 
