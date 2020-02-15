@@ -5,7 +5,6 @@
 3. ELWHERE
 ## 1. EL SELECT
 El select es una sentencia SQL que se utiliza para seleccionar datos de una base de datos.
-<code>
+```sql
 SELECT FILE1, FILE2, ...
-FROM table_name;</code>
-
+FROM table_name´´´
