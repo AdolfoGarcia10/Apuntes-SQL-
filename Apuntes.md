@@ -64,7 +64,7 @@ ser:
   WHERE population > x
   ORDER BY population dsc;
 ```
-##  * EL IN.
+##  EL IN.
 El  **IN** es una sentencia **SQL** que permite especificar varios valores en una sentencia **WHERE**.
 
 ```sql
