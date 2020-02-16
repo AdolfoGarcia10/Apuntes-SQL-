@@ -135,9 +135,12 @@ FROM table_name
 WHERE columnN LIKE pattern;
 ```
 ### Siendo:
-**X**: un atributo.
-**Y**: un número.
-**Z**: el numero de decimales.
+
+* **X**: un atributo.
+
+* **Y**: un número.
+
+* **Z**: el numero de decimales.
 
 
 
