@@ -209,8 +209,7 @@ WHERE columN > Y;
 ```
 Siendo **X** el numero de letras que queramos.
 
-## EL 
-JOIN.
+## EL  JOIN.
 
 El **JOIN** se utiliza para juntar un numero x de tablas en una única tabla.
 
