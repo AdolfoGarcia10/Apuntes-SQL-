@@ -14,6 +14,7 @@
 12. EL HAVING.
 13. CONCAT.
 14. EL LENGTH.
+15. LEFT Y RIGHT
 
 ## 1. EL SELECT.
 El **SELECT** es una sentencia **SQL** que se utiliza para seleccionar datos de una base de datos.
@@ -184,7 +185,27 @@ El **LENGTH** se una para saber el numero de letras que tiene una palabra.
 ```sql
 LENGTH (cadena o nombre)
 ```
+## LEFT Y RIGHT
 
+### LEFT
+Es una función que se usa para devolver los x primeros valores de una palabra. Se utiliza de esta forma:
+
+```sql
+SELECT colum1, LEFT(colum1, X)
+FROM table_name
+WHERE columN > Y;
+```
+Siendo **X** el numero de letras que queramos.
+
+### RIGHT
+Es una función que se usa para devolver los x últimos valores de una palabra. Se utiliza de esta forma:
+
+```sql
+SELECT colum1, RIGHT(colum1, X)
+FROM table_name
+WHERE columN > Y;
+```
+Siendo **X** el numero de letras que queramos.
 
 
 
