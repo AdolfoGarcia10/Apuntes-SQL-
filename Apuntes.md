@@ -13,6 +13,7 @@
 11. EL ROUND.
 12. EL HAVING.
 13. CONCAT.
+14. EL LENGTH.
 
 ## 1. EL SELECT.
 El **SELECT** es una sentencia **SQL** que se utiliza para seleccionar datos de una base de datos.
@@ -173,6 +174,18 @@ CONCAT(ROUND(100* population /
 FROM world
 WHERE continent = 'Europe';
 ```
+
+## 14. EL LENGTH.
+
+El **LENGTH** se una para saber el numero de letras que tiene una palabra.
+
+### COMO SE USA:
+
+```sql
+LENGTH (cadena o nombre)
+```
+
+
 
 
 
