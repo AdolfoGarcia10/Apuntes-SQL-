@@ -162,7 +162,7 @@ HAVING condition
 ORDER BY column_name(s);
 ```
 
-## CONCAT.
+## EL CONCAT.
 
 El **CONCAT** sirve para unir datos.
 
@@ -209,7 +209,8 @@ WHERE columN > Y;
 ```
 Siendo **X** el numero de letras que queramos.
 
-## JOIN.
+## EL 
+JOIN.
 
 El **JOIN** se utiliza para juntar un numero x de tablas en una única tabla.
 
