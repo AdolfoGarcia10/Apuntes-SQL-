@@ -1,22 +1,22 @@
 # Apuntes SQL DQL.
 ## Sentencias SQL
-1. EL SELECT.
-2. EL FROM.
-3. EL WHERE.
-4. EL ORDER BY.
-5. EL IN.
-6. EL BETWEEN.
-7. El AND, OR Y NOT.
-8. EL LIKE.
-9. EL REPLACE.
-10. SUM, COUNT, MAX, MIN Y AVG.
-11. EL ROUND.
-12. EL HAVING.
-13. CONCAT.
-14. EL LENGTH.
-15. LEFT Y RIGHT.
-16. JOIN.
-17. LEFT JOIN Y RIGHT JOIN.
+* EL SELECT.
+* EL FROM.
+* EL WHERE.
+* EL ORDER BY.
+* EL IN.
+* EL BETWEEN.
+* El AND, OR Y NOT.
+* EL LIKE.
+* EL REPLACE.
+* SUM, COUNT, MAX, MIN Y AVG.
+* EL ROUND.
+* EL HAVING.
+* CONCAT.
+* EL LENGTH.
+* LEFT Y RIGHT.
+* JOIN.
+* LEFT JOIN Y RIGHT JOIN.
 
 ## 1. EL SELECT.
 El **SELECT** es una sentencia **SQL** que se utiliza para seleccionar datos de una base de datos.
