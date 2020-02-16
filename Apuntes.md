@@ -18,14 +18,14 @@
 * JOIN.
 * LEFT JOIN Y RIGHT JOIN.
 
-## * EL SELECT.
+## EL SELECT.
 El **SELECT** es una sentencia **SQL** que se utiliza para seleccionar datos de una base de datos.
 ```sql
 SELECT  column1, column2, ...
 FROM table_name;
 ```
 
-##  * EL FROM.
+##  EL FROM.
 El **FROM** es una sentencia **SQL** que se utiliza para especificar qué tabla para seleccionar o borrar los datos.
 
 ```sql
@@ -33,7 +33,7 @@ SELECT column1, column2, ...
 FROM table_name;
 ```
 
-##  * EL WHERE.
+##  EL WHERE.
 El **WHERE** es una sentencia **SQL** que se utiliza para filtrar y dentro de ella pueden ir otras sentencias.
 
 ```sql
@@ -41,7 +41,7 @@ SELECT column1, column2, ...
 FROM table_name
 WHERE condition;
 ```
-##  * EL ORDER BY.
+##  EL ORDER BY.
 El  **ORDER BY**  es una sentencia **SQL** que se utiliza para ordenar los resultados. Puede
 ser:
 
@@ -70,7 +70,7 @@ SELECT column_name(s)
 FROM table_name
 WHERE column_name IN (value1, value2, ...);
 ```
-## * EL BETWEEN.
+## EL BETWEEN.
 El  **BETWEEN** es una sentencia **SQL** que compara los valores en un rango determinado.
 
 ```sql
@@ -78,7 +78,7 @@ SELECT column_name(s)
 FROM table_name
 WHERE column_name BETWEEN value1 AND value2;
 ```
-## * El AND ,OR Y NOT.
+## El AND ,OR Y NOT.
 
 **AND**: es un operador que sirve para cumplir 2 o mas condiciones cuando ambas sean ciertas.
 
@@ -101,7 +101,7 @@ SELECT column1, column2, ...
 FROM table_name
 WHERE NOT condition;
 ```
-## * EL LIKE.
+## EL LIKE.
 
 El **LIKE** es un operador que utiliza en una cláusula **WHERE** para buscar un patrón específico en una columna.
 
@@ -112,7 +112,7 @@ FROM table_name
 WHERE columnN LIKE pattern;
 ```
 
-## * EL REPLACE.
+## EL REPLACE.
 
 El **REPLACE** es una función **SQL** sirve para intercambiar elementos de la consulta.
 
@@ -122,7 +122,7 @@ SELECT city
 FROM world
 WHERE name LIKE '%_NY';
 ```
-## * SUM, COUNT, MAX, MIN Y AVG.
+## SUM, COUNT, MAX, MIN Y AVG.
 
 | Símbolo   | Significado                                                      |
 | --------- | -----------------------------------------------------------------|
@@ -132,7 +132,7 @@ WHERE name LIKE '%_NY';
 | **MIN**   | Da el valor mínimo de una columna                                |
 | **AVG**   | Devuelve la media del valor numérico de las tuplas de una columna|
 
-## * ROUND
+## ROUND
 
 El **ROUND** es un operador de **SQL** que sirve para redondear un numero a un número "x" de decimales.
 
@@ -149,7 +149,7 @@ WHERE columnN LIKE pattern;
 
 * **Z**: el numero de decimales.
 
-## * El HAVING.
+## El HAVING.
 
 El **HAVING** se usa prácticamente igual que un **WHERE** y a diferencia de el este se caracteriza por tener que ir siempre acompañado de un **GROUP BY**.
 
@@ -162,7 +162,7 @@ HAVING condition
 ORDER BY column_name(s);
 ```
 
-## * CONCAT.
+## CONCAT.
 
 El **CONCAT** sirve para unir datos.
 
@@ -178,7 +178,7 @@ FROM world
 WHERE continent = 'Europe';
 ```
 
-## * EL LENGTH.
+## EL LENGTH.
 
 El **LENGTH** se una para saber el numero de letras que tiene una palabra.
 
@@ -187,7 +187,7 @@ El **LENGTH** se una para saber el numero de letras que tiene una palabra.
 ```sql
 LENGTH (cadena o nombre)
 ```
-## * LEFT Y RIGHT
+## LEFT Y RIGHT
 
 ### LEFT
 Es una función que se usa para devolver los x **primeros** valores de una palabra. Se utiliza de esta forma:
@@ -209,7 +209,7 @@ WHERE columN > Y;
 ```
 Siendo **X** el numero de letras que queramos.
 
-## * JOIN.
+## JOIN.
 
 El **JOIN** se utiliza para juntar un numero x de tablas en una única tabla.
 
@@ -221,7 +221,7 @@ WHERE teamid='GER';
 ### ON.
 El **ON** acompaña al **JOIN** prácticamente en todas las consultas y se utiliza para la unión de las tablas.
 
-## * LEFT JOIN Y RIGHT JOIN.
+## LEFT JOIN Y RIGHT JOIN.
 
 Tiene la misma función que el **JOIN** pero se diferencian en:
 
