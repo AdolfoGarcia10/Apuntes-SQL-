@@ -14,7 +14,8 @@
 12. EL HAVING.
 13. CONCAT.
 14. EL LENGTH.
-15. LEFT Y RIGHT
+15. LEFT Y RIGHT.
+16. JOIN.
 
 ## 1. EL SELECT.
 El **SELECT** es una sentencia **SQL** que se utiliza para seleccionar datos de una base de datos.
@@ -207,7 +208,17 @@ WHERE columN > Y;
 ```
 Siendo **X** el numero de letras que queramos.
 
+## 16. JOIN.
 
+El **JOIN** se utiliza para juntar un numero x de tablas en una única tabla.
+
+```sql
+SELECT goal.player
+FROM game JOIN goal ON game.id = goal.matchid
+WHERE teamid='GER';
+```
+### ON.
+El **ON** acompaña al **JOIN** prácticamente en todas las consultas y se utiliza para la unión de las tablas.
 
 
 
