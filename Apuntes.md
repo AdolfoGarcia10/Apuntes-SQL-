@@ -10,16 +10,19 @@
 8. EL LIKE.
 9. EL REPLACE.
 10. SUM, COUNT, MAX, MIN Y AVG.
-11. EL ROUND
+11. EL ROUND.
+12. EL HAVING.
+13. CONCAT.
+
 ## 1. EL SELECT.
-El SELECT es una sentencia SQL que se utiliza para seleccionar datos de una base de datos.
+El **SELECT** es una sentencia **SQL** que se utiliza para seleccionar datos de una base de datos.
 ```sql
 SELECT  column1, column2, ...
 FROM table_name;
 ```
 
 ##  2. EL FROM.
-El FROM es una sentencia SQL que se utiliza para especificar qué tabla para seleccionar o borrar los datos.
+El **FROM** es una sentencia **SQL** que se utiliza para especificar qué tabla para seleccionar o borrar los datos.
 
 ```sql
 SELECT column1, column2, ...
@@ -27,7 +30,7 @@ FROM table_name;
 ```
 
 ##  3.  EL WHERE.
-El WHERE es una sentencia SQL que se utiliza para filtrar y dentro de ella pueden ir otras sentencias.
+El **WHERE** es una sentencia **SQL** que se utiliza para filtrar y dentro de ella pueden ir otras sentencias.
 
 ```sql
 SELECT column1, column2, ...
@@ -35,10 +38,10 @@ FROM table_name
 WHERE condition;
 ```
 ##  4. EL ORDER BY.
-El  ORDER BY  es una sentencia SQL que se utiliza para ordenar los resultados. Puede
+El  **ORDER BY**  es una sentencia **SQL** que se utiliza para ordenar los resultados. Puede
 ser:
 
-**ASC**: orden ascendente aunque el ORDER BY ya es ASC por defecto.
+**ASC**: orden ascendente aunque el **ORDER BY** ya es **ASC** por defecto.
 
 ```sql
   SELECT name, population
@@ -56,7 +59,7 @@ ser:
   ORDER BY population dsc;
 ```
 ##  5. EL IN.
-El  IN es una sentencia SQL que permite especificar varios valores en una sentencia WHERE.
+El  **IN** es una sentencia **SQL** que permite especificar varios valores en una sentencia **WHERE**.
 
 ```sql
 SELECT column_name(s)
@@ -64,7 +67,7 @@ FROM table_name
 WHERE column_name IN (value1, value2, ...);
 ```
 ## 6. EL BETWEEN.
-El  BETWEEN es una sentencia SQL que compara los valores en un rango determinado.
+El  **BETWEEN** es una sentencia **SQL** que compara los valores en un rango determinado.
 
 ```sql
 SELECT column_name(s)
@@ -96,7 +99,7 @@ WHERE NOT condition;
 ```
 ## 8. EL LIKE.
 
-El LIKE es un operador que utiliza en una cláusula WHERE para buscar un patrón específico en una columna.
+El **LIKE** es un operador que utiliza en una cláusula **WHERE** para buscar un patrón específico en una columna.
 
 
 ```sql
@@ -107,7 +110,7 @@ WHERE columnN LIKE pattern;
 
 ## 9. EL REPLACE.
 
-El REPLACE es una función SQL sirve para intercambiar elementos de la consulta.
+El **REPLACE** es una función **SQL** sirve para intercambiar elementos de la consulta.
 
 ```sql
 SELECT city
@@ -127,7 +130,7 @@ WHERE name LIKE '%_NY';
 
 ## 11. ROUND
 
-El ROUND es un operador de SQL que sirve para redondear un numero a un número "x" de decimales.
+El **ROUND** es un operador de **SQL** que sirve para redondear un numero a un número "x" de decimales.
 
 ```sql
 SELECT column1, column2, ROUND (x/y,z)
@@ -141,6 +144,37 @@ WHERE columnN LIKE pattern;
 * **Y**: un número.
 
 * **Z**: el numero de decimales.
+
+## 12. El HAVING.
+
+El **HAVING** se usa prácticamente igual que un **WHERE** y a diferencia de el este se caracteriza por tener que ir siempre acompañado de un **GROUP BY**.
+
+```sql
+SELECT column_name(s)
+FROM table_name
+WHERE condition
+GROUP BY column_name(s)
+HAVING condition
+ORDER BY column_name(s);
+```
+
+## 13. CONCAT.
+
+El **CONCAT** sirve para unir datos.
+
+```sql
+SELECT name, 
+CONCAT(ROUND(100* population /
+                               (SELECT population
+                                  FROM world 
+                                 WHERE name = 'Germany'),
+               0),
+         '%')
+FROM world
+WHERE continent = 'Europe';
+```
+
+
 
 
 
