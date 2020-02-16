@@ -9,6 +9,7 @@
 7. El AND, OR Y NOT.
 8. EL LIKE.
 9. EL REPLACE.
+10. SUM, COUNT, MAX, MIN Y AVG.
 ## 1. EL SELECT.
 El SELECT es una sentencia SQL que se utiliza para seleccionar datos de una base de datos.
 ```sql
@@ -113,6 +114,18 @@ SELECT city
 FROM world
 WHERE name LIKE '%_NY';
 ```
+## 10. SUM, COUNT, MAX, MIN Y AVG.
+
+| Símbolo   |  Significado                                                      |
+| --------- | ------------------------------------------------------------------|
+| **SUM**   |  la suma de todos los valore de una columna                       | 
+| **COUNT** |  Devuelve el numero de tuplas                                     | 
+| **MAX**   |  Da el valor máximo de una columna                                | 
+| **MIN**   |  Da el valor mínimo de una columna                                |
+| **AVG**   |  Devuelve la media del valor numérico de las tuplas de una columna|
+
+
+
 
 
 
