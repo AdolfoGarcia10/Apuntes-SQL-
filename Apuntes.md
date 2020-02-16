@@ -10,6 +10,7 @@
 8. EL LIKE.
 9. EL REPLACE.
 10. SUM, COUNT, MAX, MIN Y AVG.
+11. EL ROUND
 ## 1. EL SELECT.
 El SELECT es una sentencia SQL que se utiliza para seleccionar datos de una base de datos.
 ```sql
@@ -116,13 +117,30 @@ WHERE name LIKE '%_NY';
 ```
 ## 10. SUM, COUNT, MAX, MIN Y AVG.
 
-| Símbolo   |  Significado                                                      |
-| --------- | ------------------------------------------------------------------|
-| **SUM**   |  la suma de todos los valore de una columna                       | 
-| **COUNT** |  Devuelve el numero de tuplas                                     | 
-| **MAX**   |  Da el valor máximo de una columna                                | 
-| **MIN**   |  Da el valor mínimo de una columna                                |
-| **AVG**   |  Devuelve la media del valor numérico de las tuplas de una columna|
+| Símbolo   | Significado                                                      |
+| --------- | -----------------------------------------------------------------|
+| **SUM**   | Devuelve la suma de todos los valore de una columna              | 
+| **COUNT** | Devuelve el numero de tuplas                                     | 
+| **MAX**   | Da el valor máximo de una columna                                | 
+| **MIN**   | Da el valor mínimo de una columna                                |
+| **AVG**   | Devuelve la media del valor numérico de las tuplas de una columna|
+
+## 11. ROUND
+
+El ROUND es un operador de SQL que sirve para redondear un numero a un número "x" de decimales.
+
+```sql
+SELECT column1, column2, ROUND (x/y,z)
+FROM table_name
+WHERE columnN LIKE pattern;
+```
+### Siendo:
+**X**: un atributo.
+**Y**: un número.
+**Z**: el numero de decimales.
+
+
+
 
 
 
