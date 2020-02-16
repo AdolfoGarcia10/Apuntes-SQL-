@@ -188,7 +188,7 @@ LENGTH (cadena o nombre)
 ## LEFT Y RIGHT
 
 ### LEFT
-Es una función que se usa para devolver los x primeros valores de una palabra. Se utiliza de esta forma:
+Es una función que se usa para devolver los x **primeros** valores de una palabra. Se utiliza de esta forma:
 
 ```sql
 SELECT colum1, LEFT(colum1, X)
@@ -198,7 +198,7 @@ WHERE columN > Y;
 Siendo **X** el numero de letras que queramos.
 
 ### RIGHT
-Es una función que se usa para devolver los x últimos valores de una palabra. Se utiliza de esta forma:
+Es una función que se usa para devolver los x **últimos** valores de una palabra. Se utiliza de esta forma:
 
 ```sql
 SELECT colum1, RIGHT(colum1, X)
