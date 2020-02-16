@@ -1,22 +1,24 @@
 # Apuntes SQL DQL.
 ## Sentencias SQL
-* EL SELECT.
-* EL FROM.
-* EL WHERE.
-* EL ORDER BY.
-* EL IN.
-* EL BETWEEN.
-* El AND, OR Y NOT.
-* EL LIKE.
-* EL REPLACE.
-* SUM, COUNT, MAX, MIN Y AVG.
-* EL ROUND.
-* EL HAVING.
-* CONCAT.
-* EL LENGTH.
-* LEFT Y RIGHT.
-* JOIN.
-* LEFT JOIN Y RIGHT JOIN.
+
+## INDICE:
+* [EL SELECT.](#EL-SELECT)
+* [EL FROM.](#EL-FROM)
+* [EL WHERE.](#EL-WHERE)
+* [EL ORDER BY.](#EL-ORDER-BY)
+* [EL IN.](#el-in)
+* [EL BETWEEN.](#el-between)
+* [El AND, OR Y NOT.](#el-and-or-y-not)
+* [EL LIKE.](#el-like)
+* [EL REPLACE.](#el-replace)
+* [SUM, COUNT, MAX, MIN Y AVG.](#sum-count-max-min-y-avg)
+* [EL ROUND.](#el-round)
+* [EL HAVING.](#el-having)
+* [EL CONCAT.](#el-concat)
+* [EL LENGTH.](#el-length)
+* [LEFT Y RIGHT.](#left-y-right)
+* [EL JOIN.](#el-join)
+* [LEFT JOIN Y RIGHT JOIN.](#left-join-y-right-join)
 
 ## EL SELECT.
 El **SELECT** es una sentencia **SQL** que se utiliza para seleccionar datos de una base de datos.
@@ -132,7 +134,7 @@ WHERE name LIKE '%_NY';
 | **MIN**   | Da el valor mínimo de una columna                                |
 | **AVG**   | Devuelve la media del valor numérico de las tuplas de una columna|
 
-## ROUND
+## EL ROUND
 
 El **ROUND** es un operador de **SQL** que sirve para redondear un numero a un número "x" de decimales.
 
