@@ -16,6 +16,7 @@
 14. EL LENGTH.
 15. LEFT Y RIGHT.
 16. JOIN.
+17. LEFT JOIN Y RIGHT JOIN.
 
 ## 1. EL SELECT.
 El **SELECT** es una sentencia **SQL** que se utiliza para seleccionar datos de una base de datos.
@@ -219,6 +220,31 @@ WHERE teamid='GER';
 ```
 ### ON.
 El **ON** acompaña al **JOIN** prácticamente en todas las consultas y se utiliza para la unión de las tablas.
+
+## 17. LEFT JOIN Y RIGHT JOIN.
+
+Tiene la misma función que el **JOIN** pero se diferencian en:
+
+### LEFT JOIN.
+
+Muestra todos los valores de la **izquierda** aunque en la derecha haya nulos.
+
+```sql
+SELECT goal.player
+FROM game LEFT JOIN goal ON game.id = goal.matchid
+WHERE teamid='GER';
+```
+
+### RIGHT JOIN.
+
+Muestra todos los valores de la **derecha**  aunque en la izquierda haya nulos.
+
+```sql
+SELECT goal.player
+FROM game RIGHT JOIN goal ON game.id = goal.matchid
+WHERE teamid='GER';
+```
+
 
 
 
